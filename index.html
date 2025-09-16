@@ -5,30 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Blog preview card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Learning
+  <div class="container">
+    <div class="card">
+      <img src="assets/images/illustration-article.svg" alt="" class="card-img">
+      <p class="card-tag">Learning</p>
 
-  Published 21 Dec 2023
+      <p class="card-date">Published 21 Dec 2023</p>
 
-  HTML & CSS foundations
+      <h3 class="card-title">HTML & CSS foundations</h3>
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
+      <p class="card-desc">These languages are the backbone of every website, defining structure, content, and presentation.</p>
 
-  Greg Hooper
-  
-  <div class="attribution">
+      <div class="card-author-info">
+        <h4 class="card-author-name">Greg Hooper</h4>
+        <img class="card-author-img" src="assets/images/image-avatar.webp" alt="Profile photo of Greg Hooper">
+      </div>
+    </div>
+    <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a target="_blank" href="https://github.com/upbeatmood">upbeatmood</a>.
   </div>
+</div>
 </body>
 </html>

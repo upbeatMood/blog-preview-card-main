@@ -1,0 +1,88 @@
+/*
+
+- Yellow: hsl(47, 88%, 63%)
+
+- White: hsl(0, 0%, 100%)
+
+- Gray 500: hsl(0, 0%, 42%)
+- Gray 950: hsl(0, 0%, 7%)
+
+*/
+
+@font-face {
+    font-family: "Fig Tree";
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Fig Tree", Arial, sans;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card {
+    box-sizing: content-box;
+    width: 322px;
+    border: 1px solid hsl(0, 0%, 7%);
+    background-color: hsl(0, 0%, 100%);
+    padding: 18px 22px;
+    border-radius: 10px;
+}
+
+.card-img {
+    display: inherit;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card-tag {
+    font-weight: 800;
+    font-size: 14px;
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-bottom: 0;
+}
+
+.card-date {
+    font-size: 14px;
+}
+
+.card-desc {
+    color: hsl(0, 0%, 42%);
+}
+
+.card-author-info {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card-author-name {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.card-author-img {
+    width: 32px;
+    height: 32px;
+}
+
+/* Attribution */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
