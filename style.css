@@ -82,6 +82,7 @@ body {
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: center;
+    margin-top: 10px;
 }
 
 .card-author-name {
@@ -95,5 +96,5 @@ body {
 }
 
 /* Attribution */
-.attribution { font-size: 11px; text-align: center; margin-top: 30px; }
+.attribution { font-size: 11px; text-align: center; margin-top: 40px; }
 .attribution a { color: hsl(228, 45%, 44%); }
