@@ -35,10 +35,16 @@ body {
 .card {
     box-sizing: content-box;
     width: 322px;
+    height: 433px;
     border: 1px solid hsl(0, 0%, 7%);
     background-color: hsl(0, 0%, 100%);
     padding: 18px 22px;
-    border-radius: 10px;
+    border-radius: 20px;
+    transition: box-shadow 0.25s;
+}
+
+.card:hover {
+    box-shadow: 7px 7px #000;
 }
 
 .card-img {
@@ -64,6 +70,7 @@ body {
 
 .card-desc {
     color: hsl(0, 0%, 42%);
+    margin-bottom: 5px;
 }
 
 .card-author-info {
@@ -84,5 +91,5 @@ body {
 }
 
 /* Attribution */
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; margin-top: 10px; }
 .attribution a { color: hsl(228, 45%, 44%); }
